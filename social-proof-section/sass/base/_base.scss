@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+
+    @include xl {
+        font-size: 60%;
+    }
+    @include lg {
+        font-size: 56.25%;
+    }
+    @include md {
+        font-size: 52%;
+    }
+}
+a {
+    text-decoration: none;
+    color: unset;
+}
+body {
+    font-family: "Spartan", sans-serif;
+    font-size: $fs-1;
+    font-weight: $fw-1;
+    position: relative;
+
+    .bg-1 {
+        content: url(../../images/bg-pattern-top-desktop.svg);
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        @include sm {
+            content: url(../../images/bg-pattern-top-mobile.svg);
+        }
+    }
+    .bg-2 {
+        content: url(../../images/bg-pattern-bottom-desktop.svg);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+        @include sm {
+            content: url(../../images/bg-pattern-bottom-mobile.svg);
+        }
+    }
+}
+
+.container {
+    max-width: 144rem;
+    min-height: 100vh;
+    margin: 0 auto;
+}
