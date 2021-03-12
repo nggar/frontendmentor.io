@@ -8,4 +8,5 @@ See my [Frontend Mentor Profile](https://www.frontendmentor.io/profile/nggar) an
 
 You can find below the live versions of my solutions :
 
--   [**Social Proof Section**](https://github.com/nggar/frontendmentor.io/tree/main/social-proof-section) : a responsive design testimonial & review section.
+-   [**Profile Card Component**](https://github.com/nggar/frontendmentor.io/tree/main/profile-card-component-main)
+-   [**Social Proof Section**](https://github.com/nggar/frontendmentor.io/tree/main/social-proof-section)

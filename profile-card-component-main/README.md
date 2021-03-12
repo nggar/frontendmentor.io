@@ -6,15 +6,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://social-proof.onrender.com/">
+    <a href="https://profile-card-component.onrender.com/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/social-proof-section-html-scss-using-flexbox-for-layouting-rJsknRQbn">
+    <a href="https://www.frontendmentor.io/solutions/using-scss-and-bem-yKImrXdqc">
       Solution
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA">
+    <a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ">
       Challenge
     </a>
   </h3>
