@@ -156,6 +156,9 @@
     @include lg {
         flex-wrap: wrap;
     }
+    @include sm {
+        column-gap: 0;
+    }
 
     & > * {
         flex-basis: 100%;
