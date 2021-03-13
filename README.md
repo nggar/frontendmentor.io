@@ -8,5 +8,4 @@ See my [Frontend Mentor Profile](https://www.frontendmentor.io/profile/nggar) an
 
 You can find below the live versions of my solutions :
 
--   [**Profile Card Component**](https://github.com/nggar/frontendmentor.io/tree/main/profile-card-component-main)
 -   [**Social Proof Section**](https://github.com/nggar/frontendmentor.io/tree/main/social-proof-section)
