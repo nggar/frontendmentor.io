@@ -1,0 +1,65 @@
+.navbar {
+    background-color: var(--cl-dark-1);
+    &__content {
+        display: flex;
+        align-items: center;
+        padding: 5rem 0;
+
+        @include sm {
+            padding: 2rem 0;
+        }
+    }
+    &__brand {
+        height: 7rem;
+        width: 14rem;
+
+        @include sm {
+            height: 5rem;
+            width: 10rem;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    &__nav {
+        margin-left: auto;
+    }
+    &__list {
+        display: flex;
+        column-gap: 5rem;
+
+        @include sm {
+            column-gap: 2.5rem;
+        }
+        li {
+            color: var(--white);
+
+            a {
+                font-family: var(--ff-heading);
+                padding: 0.5rem 0;
+                position: relative;
+                transition: all 0.5s ease;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    height: 1px;
+                    background-color: var(--white);
+                    transform: scale(0);
+                    transition: all 0.3s ease;
+                }
+                &:hover {
+                    &::before {
+                        transform: scale(1);
+                    }
+                }
+            }
+        }
+    }
+}

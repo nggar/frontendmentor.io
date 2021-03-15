@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+
+    @include xl {
+        font-size: 60%;
+    }
+    @include lg {
+        font-size: 56.25%;
+    }
+    @include md {
+        font-size: 50%;
+    }
+}
+
+body {
+    font-family: var(--ff-body);
+    font-size: 1.5rem;
+    font-weight: var(--fw-1);
+}
+
+li {
+    list-style: none;
+}
+a {
+    color: unset;
+    text-decoration: none;
+}

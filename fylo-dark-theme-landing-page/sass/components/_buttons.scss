@@ -1,0 +1,46 @@
+.btn {
+    font-family: var(--ff-heading);
+    border: none;
+    outline: none;
+    padding: 1.5rem 7rem;
+    background: linear-gradient(to right bottom, var(--cl-accent-1), var(--cl-accent-2));
+    color: var(--white);
+    border-radius: 100px;
+    font-size: 1.5rem;
+    font-weight: var(--fw-2);
+    cursor: pointer;
+    min-width: max-content;
+
+    &:hover {
+        background: var(--cl-accent-1);
+    }
+    &:active {
+        background: linear-gradient(to right bottom, var(--cl-accent-1), var(--cl-accent-2));
+    }
+}
+
+.btn-text {
+    display: inline-block;
+    color: var(--cl-accent-1);
+    border-bottom: 1px solid var(--cl-accent-1);
+    display: flex;
+    align-items: center;
+    line-height: 2.7rem;
+
+    svg {
+        margin-left: 0.5rem;
+        use {
+            fill: var(--cl-accent-1);
+        }
+    }
+
+    &:hover {
+        color: var(--white);
+        border-bottom: 1px solid var(--white);
+        svg {
+            use {
+                fill: var(--white);
+            }
+        }
+    }
+}

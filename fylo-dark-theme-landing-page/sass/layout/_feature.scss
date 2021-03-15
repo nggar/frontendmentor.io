@@ -1,0 +1,79 @@
+.feature {
+    background-color: var(--cl-dark-2);
+    padding-bottom: 15rem;
+
+    &__content {
+        color: var(--white);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 15rem;
+        grid-gap: 10rem;
+
+        @include xl {
+            margin: 0 10rem;
+        }
+        @include lg {
+            margin: 0;
+        }
+        @include md {
+            margin: 0 15rem;
+        }
+        @include sm {
+            margin: 0 3rem;
+            grid-gap: 8rem;
+        }
+    }
+    &__card {
+        justify-self: center;
+        text-align: center;
+
+        &--1 {
+            grid-column: 1 / 2;
+        }
+        &--2 {
+            grid-column: 2 / 3;
+        }
+        &--3 {
+            grid-column: 1 / 2;
+        }
+        &--4 {
+            grid-column: 2 / 3;
+        }
+
+        @include md {
+            grid-column: 1 / -1;
+        }
+
+        &__img-box {
+            margin: 0 auto;
+            height: 10rem;
+            width: 10rem;
+            margin-bottom: 2rem;
+
+            @include sm {
+                height: 8rem;
+                width: 8rem;
+            }
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+
+        &__title {
+            font-family: var(--ff-heading);
+            font-size: 2.2rem;
+            margin-bottom: 2rem;
+        }
+        &__description {
+            line-height: 2.2rem;
+
+            @include sm {
+                font-size: 1.6rem;
+                line-height: 2.6rem;
+            }
+        }
+    }
+}
