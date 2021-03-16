@@ -8,4 +8,7 @@ See my [Frontend Mentor Profile](https://www.frontendmentor.io/profile/nggar) an
 
 You can find below the live versions of my solutions :
 
--   [**Social Proof Section**](https://github.com/nggar/frontendmentor.io/tree/main/social-proof-section)
+#### **HTML / CSS**
+
+-   [**"Social Proof Section"**](https://github.com/nggar/frontendmentor.io/tree/main/social-proof-section)
+-   [**"Fylo Dark Theme Landing Page"**](https://github.com/nggar/frontendmentor.io/tree/main/fylo-dark-theme-landing-page)
