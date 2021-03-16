@@ -10,18 +10,15 @@
         }
     }
     &__brand {
-        height: 7rem;
         width: 14rem;
 
         @include sm {
-            height: 5rem;
             width: 10rem;
         }
 
         img {
             width: 100%;
-            height: 100%;
-            object-fit: contain;
+            display: block;
         }
     }
     &__nav {
