@@ -1,0 +1,117 @@
+.card {
+    width: 34.5rem;
+    box-shadow: 0px 10px 15px 0px rgba(76, 78, 97, 0.15);
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    padding: 3rem;
+    background-color: white;
+    height: min-content;
+    margin: auto;
+
+    @include respond(lg) {
+        width: 32.5rem;
+        padding: 2.5rem;
+    }
+
+    @include respond(md) {
+        width: 34.5rem;
+        padding: 3rem;
+    }
+
+    @include respond(sm) {
+        width: 31.5rem;
+        padding: 2.5rem;
+    }
+
+    &__title {
+        color: var(--c-neutral-1);
+        margin-bottom: 1rem;
+    }
+
+    &__description {
+        margin-bottom: 3rem;
+        color: var(--c-neutral-2);
+        font-size: 1.4rem;
+    }
+
+    &__img {
+        display: block;
+        margin-left: auto;
+        height: 6rem;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 5px;
+        width: 100%;
+    }
+
+    &--1 {
+        &::before {
+            background-color: var(--c-primary-2);
+        }
+
+        grid-row: 1 / span 2;
+        grid-column: 2 / 2;
+        @include respond(xl) {
+            grid-row: 1 / 1;
+        }
+    }
+    &--2 {
+        &::before {
+            background-color: var(--c-primary-1);
+        }
+
+        grid-row: 1 / 1;
+        grid-column: 3 / 3;
+
+        @include respond(xl) {
+            grid-row: 2 / 2;
+            grid-column: 2 / 2;
+        }
+
+        @include respond(md) {
+            grid-row: auto;
+            grid-column: 2 / 2;
+        }
+    }
+    &--3 {
+        &::before {
+            background-color: var(--c-primary-3);
+        }
+
+        grid-row: 2 / 2;
+        grid-column: 3 / 3;
+
+        @include respond(xl) {
+            grid-row: 1 / 1;
+        }
+
+        @include respond(md) {
+            grid-row: auto;
+            grid-column: 2 / 2;
+        }
+    }
+    &--4 {
+        &::before {
+            background-color: var(--c-primary-4);
+        }
+
+        grid-row: 1 / span 2;
+        grid-column: 4 / 4;
+
+        @include respond(xl) {
+            grid-row: 2 / 2;
+            grid-column: 3 / 3;
+        }
+
+        @include respond(md) {
+            grid-row: auto;
+            grid-column: 2 / 2;
+        }
+    }
+}

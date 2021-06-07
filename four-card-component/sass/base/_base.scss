@@ -1,0 +1,35 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    background-color: var(--c-neutral-3);
+}
+
+.container {
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+h1 {
+    font-size: 3.2rem;
+
+    @include respond(sm) {
+        font-size: 2.4rem;
+    }
+}
+
+h2 {
+    font-size: 2.4rem;
+}
