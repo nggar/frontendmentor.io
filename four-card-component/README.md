@@ -6,15 +6,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://fylo-dark.onrender.com/">
+    <a href="https://awesome-booth-326992.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/layout-using-grid-and-flexbox-y_aBMUWbg">
+    <a href="https://www.frontendmentor.io/solutions/scss-bem-naming-css-grid-toFMeBjKo">
       Solution
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd">
+    <a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK">
       Challenge
     </a>
   </h3>
