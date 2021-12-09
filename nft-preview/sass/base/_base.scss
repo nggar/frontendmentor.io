@@ -1,0 +1,43 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html {
+     font-size: 62.5%;
+}
+
+body {
+     font-family: var(--main-ff);
+     font-size: 1.8rem;
+     font-weight: var(--fw-1);
+
+     color: var(--c-neutral-4);
+
+     @include sm {
+          font-size: 1.6rem;
+     }
+}
+
+.container {
+     width: 100%;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+
+     background-color: var(--c-neutral-1);
+}
+
+.attribution {
+     position: absolute;
+     bottom: 0;
+     margin-bottom: 1rem;
+     font-size: 1.2rem;
+
+     @include sm {
+          font-size: .8rem;
+     }
+}
