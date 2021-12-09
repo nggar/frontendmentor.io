@@ -6,15 +6,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://social-proof.onrender.com/">
+    <a href="https://nft-preview-360rrgs5n-nggar.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/social-proof-section-html-scss-using-flexbox-for-layouting-rJsknRQbn">
+    <a href="https://www.frontendmentor.io/solutions/i-am-using-sass-fTtxux9jd">
       Solution
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA">
+    <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U">
       Challenge
     </a>
   </h3>
@@ -33,7 +33,7 @@
 
 ## Overview
 
-![screenshot](preview.png)
+![screenshot](design/desktop-design.jpg)
 
 ### Built With
 
